@@ -24,6 +24,11 @@ body
   .titlerow {
     margin: 0;
     padding-top: 3rem;
+    font-family: 'Patrick Hand SC', cursive;
+  }
+  .sectiontitle-colorbg{
+    color: #34495E;
+    font-weight: bold;
   }
   .Button{
     padding: 20px;
@@ -35,7 +40,7 @@ body
   -webkit-transform: scale(1.1);
 }
 .Button .cv{
-    background-color: red;
+    background-color: black;
     padding: 10px;
     border-radius: 20px;
     text-decoration: none !important;
@@ -47,7 +52,7 @@ body
 .Button .cv:hover{
   
     color: white;
-    background-color: cornflowerblue;
+    background-color: #5DADE2;
 }
 
 /*Navbar Section*/
@@ -77,7 +82,9 @@ body
     padding-right: 10px;
     padding-left: 10px;
     font-weight: bold;
-    color: #302e4d !important;
+    font-family: 'Lobster', sans-serif;
+    font-size: 22;
+    color: #5DADE2 !important;
     display: inline-block;
     position: relative;
     text-decoration: none;
@@ -89,8 +96,8 @@ body
     position: absolute;
     top: 0;
     left: 0;
-    border-top: 4px solid red;
-    border-left: 4px solid red;
+    border-top: 4px solid #504e70;
+    border-left: 4px solid #504e70;
 }
 .navbar-brand a::after{
     content: '';
@@ -99,8 +106,8 @@ body
     position: absolute;
     bottom: 0;
     right: 0;
-    border-bottom: 4px solid red;
-    border-right: 4px solid red;
+    border-bottom: 4px solid #504e70;
+    border-right: 4px solid #504e70;
 }
 .navbar-nav li
 {
@@ -112,7 +119,7 @@ body
     float: right;
     text-align: left;
     font-family: 'Patrick Hand SC', cursive;
-    font-size: 15px;
+    font-size: 18px;
 }
 .nav-link{
   transition: all 0.5s ease;
@@ -157,7 +164,7 @@ body
   }
   
   .mainname {
-    color: #ff5c4d;
+    color: #F62C07 ;
     margin: 1rem auto 3rem auto;
     /* font-family: 'Sacramento', cursive; */
   font-family: 'Lobster', sans-serif;
@@ -167,7 +174,7 @@ body
   }
   
   .hello {
-    color: #5d3327;
+    color: #34495E;
     margin: 8rem auto 2rem auto;
     /* font-family: 'Sacramento', cursive; */
     font-family: 'Lobster', sans-serif;
@@ -176,7 +183,7 @@ body
   }
   
   .rotating-txt{
-    color: #5d3327;
+    color: black;
     /* font-family: 'Lobster', sans-serif; */
     font-family: 'Patrick Hand SC', cursive;
     font-size: 2rem;
@@ -194,50 +201,7 @@ body
     position: relative;
     text-align: center;
   }
-  /* a.btnfos{
-  text-decoration: none;
-  color: black;
-  }
-  .btnfos {
-    
-  color: #ffeceb;
-    cursor: pointer;
-    display: block;
-    font-size: 16px;
   
-    font-weight: bold;
-    line-height: 45px;
-    max-width: 160px;
-    margin: 0 auto 0 auto;
-    position: relative;
-    text-transform: uppercase;
-    text-align: center;
-    width: 100%;
-  }
-  .btnfos-5 {
-    border: 0 solid;
-    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
-    outline: 1px solid;
-    outline-color: rgba(255, 255, 255, 0);
-    outline-offset: 0px;
-    text-shadow: none;
-    -webkit-transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
-            transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
-    outline-color: rgba(255, 255, 255, 0.5);
-    outline-offset: 0px;
-    background-color:#ffcfcc;
-  
-  }
-  
-  .btnfos-5:hover {
-    border: 1px solid;
-    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.2);
-    outline-offset: 15px;
-    outline-color: rgba(255, 255, 255, 0);
-    text-shadow: 1px 1px 2px #427388;
-    background-color:#fff;
-  } */
-
 /*About me Section*/
 #about-me
 {
@@ -292,9 +256,10 @@ body
     font-size: 30px;
     color: #302e4d !important;
     margin: 20px 0 5px;
+    font-weight: bold;
 }
 .intro p{
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
     margin: 0;
     line-height: 22px;
@@ -315,15 +280,19 @@ body
     margin: 0 4px;
     border-radius: 50%;
     text-decoration: none;
-    background-color: red;
+    background-color: black;
     transition: all 0.5s ease;
     -webkit-transition: all 0.5s s  ease;
 }
 .social-links a:hover{
-    background-color: cornflowerblue;
+    background-color: #5DADE2;
     color: white;
     transform: scale(1.1);
   -webkit-transform: scale(1.1);
+}
+.aboutme-text{
+  font-size: 20px;
+  text-align: justify;
 }
 
 /*Education Section*/
@@ -348,8 +317,8 @@ body
 }
 .timeline .timeline-item::before{
     content: '';
-    background-color: red;
-    border: 1px solid red;
+    background-color: #34495E;
+    border: 1px solid #34495E;
     position: absolute;
     height: 100%;
     Left: 7px;
@@ -367,7 +336,7 @@ body
     left: 0;    
     height: 15px;
     width: 15px;
-    background-color: red;
+    background-color: #34495E;
     border-radius: 50%;
 }
 .timeline-date{
@@ -395,7 +364,7 @@ body
 #skills{
     padding-top: 40px;
     align-items: center;
-    background-color: pink;
+    background-color: #f2f2fc;
 }
 .skill-column{
     align-items: center !important;
@@ -407,7 +376,8 @@ body
 .column-title{
     align-items: center;
     padding: 20px;
-    color: red;
+    color: #34495E;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .skills-list{
     list-style-type: none;
@@ -423,6 +393,14 @@ body
   margin-left: 5px;
   margin-right: 5px;
   padding: 20px;
+  }
+  .content{
+    transition: all 0.5s ease;
+  -webkit-transition: all 0.5s s  ease;
+  }
+  .content:hover{
+    transform: scale(1.1);
+  -webkit-transform: scale(1.1);
   }
   .skills-li-icon{
     height: 50px;
@@ -440,6 +418,8 @@ body
   /*Projects Section*/
 #projects{
     padding: 40px;
+    align-items: center;
+    text-align: center;
 }
 .projects-column{
   /* -ms-flex: 0 0 33.33%;
@@ -468,7 +448,11 @@ body
 }
 .project-info{
     padding: 30px 15px;
-    background-color: #fdf9ff;
+}
+.btn{
+  position:relative;
+  bottom: 20px;
+  display: flex;
 }
 .project-title{
     font-size: 18px;
@@ -487,16 +471,23 @@ body
 .ipad{
   margin-right: 5px;
 }
+.ongoing{
+  max-width: fit-content;
+}
 
 /*Contact me Section*/
 #contact-me{
   align-items: center;
   text-align: center;
+  background-color: #f2f2fc;
+}
+.message{
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .mail-icon .fa{
   font-size: 40px;
-  color: red;
 }
 .copyright-text{
   padding-top: 30px;
+  font-size: 0.75rem;
 }
